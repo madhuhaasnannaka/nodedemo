@@ -4,7 +4,6 @@ const sonarqubeScanner = require('sonarqube-scanner');
        token : '4596354440399cde4c02682677f6506c03381742',
        options : {
        'sonar.login': '4596354440399cde4c02682677f6506c03381742',
-       'sonar.organization': 'lttsdevops',
        'sonar.projectKey': 'lttsdevops_sample-nodejs-project',
        'sonar.projectVersion': '1.0',
        'sonar.language': 'js',
