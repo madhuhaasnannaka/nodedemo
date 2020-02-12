@@ -1,6 +1,6 @@
 const sonarqubeScanner = require('sonarqube-scanner');
      sonarqubeScanner({
-       serverUrl: 'https://sonarcloud.io/',
+       serverUrl: 'http://localhost:9000/',
        token : '4ea57303c832f76242362c6cd9c9a73e63c27016',
        options : {
        'sonar.login': '4ea57303c832f76242362c6cd9c9a73e63c27016',
