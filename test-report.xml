@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/app/__tests__/*.js">
+  <file path="/app/__tests__/*">
     <testCase name="Feature when called with proper params then does somthing" duration="5"/>
     <testCase name="Feature when called with wrong paramg then does nothing" duration="1"/>
   </file>
