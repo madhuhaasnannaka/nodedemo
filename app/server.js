@@ -18,7 +18,7 @@ app.set('view engine', 'html');
 require('./route')(app);
 
 // server
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8087;
 app.server = app.listen(port);
 console.log(`listening on port ${port}`);
 
