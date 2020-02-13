@@ -22,5 +22,5 @@ EXPOSE $PORT
 
 ENTRYPOINT [ "npm", "start" ]
 
-CMD [ "--", "--host", "0.0.0.0", "--port", "${PORT}" ]
+#CMD [ "--", "--host", "0.0.0.0", "--port", "${PORT}" ]
 
