@@ -13,7 +13,7 @@ COPY package.json package-lock.json $APP_HOME/
 RUN chown -R $USER:$USER $APP_HOME
 USER $USER
 WORKDIR $APP_HOME
-
+RUN npm config set https-proxy http://10.9.53.7:8080
 RUN npm install
 
 COPY . $APP_HOME/
