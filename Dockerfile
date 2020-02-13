@@ -1,5 +1,5 @@
 FROM node:8-alpine
-
+ENV HTTP_PROXY "http://10.9.53.7:8080"
 ENV USER=angular
 ENV USER_HOME=/home/$USER
 ENV APP_HOME=$USER_HOME/app
