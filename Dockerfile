@@ -19,5 +19,3 @@ RUN npm install
 COPY . $APP_HOME/
 
 EXPOSE $PORT
-
-ENTRYPOINT [ "npm", "start" ]
