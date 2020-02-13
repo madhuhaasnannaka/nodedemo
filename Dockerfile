@@ -4,7 +4,7 @@ ENV USER=angular
 ENV USER_HOME=/home/$USER
 ENV APP_HOME=$USER_HOME/app
 
-ENV PORT=8080
+ENV PORT=8088
 
 RUN addgroup -S $USER && adduser -S -G $USER $USER
 
